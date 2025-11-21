@@ -1,0 +1,71 @@
+{
+  "name": "proto-hivemind-mcp-facts",
+  "current_phase": "IMPLEMENTATION",
+  "phase_number": 8,
+  "started": "2025-02-23T00:00:00Z",
+  "last_updated": "2025-11-20T00:00:00Z",
+  "phase_history": [
+    {
+      "phase": "IMPLEMENTATION",
+      "phase_number": 8,
+      "started": "2025-02-23T00:00:00Z",
+      "completed": null,
+      "deliverables_completed": false
+    }
+  ],
+  "status": "ACTIVE",
+  "description": "MCP-based fact management system that provides AI coding tools with consistent guidance about libraries, patterns, and development standards. Prevents repeated mistakes and enforces architectural decisions.",
+  "success_criteria": [
+    "MCP server operational",
+    "Facts CRUD operations working",
+    "Validation against facts functional",
+    "SQLite storage + vector search",
+    "Integration with Cline/Cursor",
+    "Automated validation reports"
+  ],
+  "metadata": {
+    "tech_stack": [
+      "TypeScript",
+      "Node.js",
+      "SQLite",
+      "MCP SDK",
+      "React (UI)"
+    ],
+    "xip_status": "none",
+    "priority": "high",
+    "test_track": null,
+    "prototype_type": "submodule",
+    "target_output": "MCP Server + UI",
+    "target_audience": "Developers using AI coding assistants",
+    "domain": "ai-tooling",
+    "categories": [
+      "mcp",
+      "fact-management",
+      "validation",
+      "ai-consistency",
+      "developer-tools"
+    ],
+    "tags": [
+      "submodule",
+      "external-repo",
+      "mcp-server"
+    ],
+    "number": "079",
+    "target_company_maturity": [
+      "mvp"
+    ],
+    "github_repo": "https://github.com/andrewhopper/hivemind"
+  },
+  "version": "0.1.0",
+  "version_history": [
+    {
+      "version": "0.1.0",
+      "date": "2025-11-20T00:00:00Z",
+      "phase": "IMPLEMENTATION",
+      "change_type": "major",
+      "description": "Added as submodule to monorepo"
+    }
+  ],
+  "uuid": "hivemind",
+  "directory_name": "proto-hivemind-mcp-facts"
+}
