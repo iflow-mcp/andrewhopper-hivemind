@@ -1,4 +1,5 @@
-import { PrismaClient, Prisma } from '@prisma/client';
+import { Prisma } from '@prisma/client';
+import { PrismaClient } from './prisma-client.js';
 import { StorageProvider, StorageSearchResult, StrictnessLevel, FactCategory, Condition, AcceptanceCriterion } from './types.js';
 
 export class PrismaStorageProvider implements StorageProvider {
